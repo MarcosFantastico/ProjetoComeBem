@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\ProjetoComeBem\\ProjetoComeBem\\ProjetoComeBem.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\Projeto_Come_Bem\\ProjetoComeBem\\ProjetoComeBem\\ProjetoComeBem.csproj",
       "projectName": "ProjetoComeBem",
-      "projectPath": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\ProjetoComeBem\\ProjetoComeBem\\ProjetoComeBem.csproj",
+      "projectPath": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\Projeto_Come_Bem\\ProjetoComeBem\\ProjetoComeBem\\ProjetoComeBem.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\ProjetoComeBem\\ProjetoComeBem\\obj\\",
+      "outputPath": "C:\\Users\\marco\\OneDrive\\Documentos\\importantes\\Cotemig\\3_ano\\Poo\\3_trim\\Projeto_Come_Bem\\ProjetoComeBem\\ProjetoComeBem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",

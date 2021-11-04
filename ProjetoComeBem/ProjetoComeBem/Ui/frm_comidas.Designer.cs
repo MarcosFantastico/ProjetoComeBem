@@ -48,44 +48,48 @@ namespace ProjetoComeBem.Ui
             // dgv_comidas
             // 
             this.dgv_comidas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_comidas.Location = new System.Drawing.Point(38, 207);
+            this.dgv_comidas.Location = new System.Drawing.Point(20, 195);
             this.dgv_comidas.Name = "dgv_comidas";
             this.dgv_comidas.RowTemplate.Height = 25;
             this.dgv_comidas.Size = new System.Drawing.Size(570, 150);
             this.dgv_comidas.TabIndex = 25;
+            this.dgv_comidas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.comidas_cell_click);
             // 
             // btn_listar
             // 
-            this.btn_listar.Location = new System.Drawing.Point(455, 398);
+            this.btn_listar.Location = new System.Drawing.Point(425, 363);
             this.btn_listar.Name = "btn_listar";
-            this.btn_listar.Size = new System.Drawing.Size(75, 23);
+            this.btn_listar.Size = new System.Drawing.Size(105, 40);
             this.btn_listar.TabIndex = 24;
             this.btn_listar.Text = "Listar";
             this.btn_listar.UseVisualStyleBackColor = true;
+            this.btn_listar.Click += new System.EventHandler(this.btn_listar_Click);
             // 
             // btn_excluir
             // 
-            this.btn_excluir.Location = new System.Drawing.Point(338, 398);
+            this.btn_excluir.Location = new System.Drawing.Point(308, 363);
             this.btn_excluir.Name = "btn_excluir";
-            this.btn_excluir.Size = new System.Drawing.Size(75, 23);
+            this.btn_excluir.Size = new System.Drawing.Size(105, 40);
             this.btn_excluir.TabIndex = 23;
             this.btn_excluir.Text = "Excluir";
             this.btn_excluir.UseVisualStyleBackColor = true;
+            this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
             // 
             // btn_alterar
             // 
-            this.btn_alterar.Location = new System.Drawing.Point(217, 398);
+            this.btn_alterar.Location = new System.Drawing.Point(187, 363);
             this.btn_alterar.Name = "btn_alterar";
-            this.btn_alterar.Size = new System.Drawing.Size(75, 23);
+            this.btn_alterar.Size = new System.Drawing.Size(105, 40);
             this.btn_alterar.TabIndex = 22;
             this.btn_alterar.Text = "Alterar";
             this.btn_alterar.UseVisualStyleBackColor = true;
+            this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
             // 
             // btn_inserir
             // 
-            this.btn_inserir.Location = new System.Drawing.Point(104, 398);
+            this.btn_inserir.Location = new System.Drawing.Point(74, 363);
             this.btn_inserir.Name = "btn_inserir";
-            this.btn_inserir.Size = new System.Drawing.Size(75, 23);
+            this.btn_inserir.Size = new System.Drawing.Size(105, 40);
             this.btn_inserir.TabIndex = 21;
             this.btn_inserir.Text = "Inserir";
             this.btn_inserir.UseVisualStyleBackColor = true;
@@ -93,7 +97,7 @@ namespace ProjetoComeBem.Ui
             // 
             // txt_modo_preparo
             // 
-            this.txt_modo_preparo.Location = new System.Drawing.Point(38, 153);
+            this.txt_modo_preparo.Location = new System.Drawing.Point(20, 141);
             this.txt_modo_preparo.Name = "txt_modo_preparo";
             this.txt_modo_preparo.Size = new System.Drawing.Size(570, 23);
             this.txt_modo_preparo.TabIndex = 20;
@@ -101,7 +105,7 @@ namespace ProjetoComeBem.Ui
             // lbl_modo_preparo
             // 
             this.lbl_modo_preparo.AutoSize = true;
-            this.lbl_modo_preparo.Location = new System.Drawing.Point(38, 121);
+            this.lbl_modo_preparo.Location = new System.Drawing.Point(20, 109);
             this.lbl_modo_preparo.Name = "lbl_modo_preparo";
             this.lbl_modo_preparo.Size = new System.Drawing.Size(102, 15);
             this.lbl_modo_preparo.TabIndex = 19;
@@ -109,7 +113,7 @@ namespace ProjetoComeBem.Ui
             // 
             // txt_ingredientes
             // 
-            this.txt_ingredientes.Location = new System.Drawing.Point(274, 61);
+            this.txt_ingredientes.Location = new System.Drawing.Point(256, 49);
             this.txt_ingredientes.Name = "txt_ingredientes";
             this.txt_ingredientes.Size = new System.Drawing.Size(334, 23);
             this.txt_ingredientes.TabIndex = 18;
@@ -117,7 +121,7 @@ namespace ProjetoComeBem.Ui
             // lbl_ingredientes
             // 
             this.lbl_ingredientes.AutoSize = true;
-            this.lbl_ingredientes.Location = new System.Drawing.Point(274, 29);
+            this.lbl_ingredientes.Location = new System.Drawing.Point(256, 17);
             this.lbl_ingredientes.Name = "lbl_ingredientes";
             this.lbl_ingredientes.Size = new System.Drawing.Size(75, 15);
             this.lbl_ingredientes.TabIndex = 17;
@@ -125,7 +129,7 @@ namespace ProjetoComeBem.Ui
             // 
             // txt_nome
             // 
-            this.txt_nome.Location = new System.Drawing.Point(113, 61);
+            this.txt_nome.Location = new System.Drawing.Point(95, 49);
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(138, 23);
             this.txt_nome.TabIndex = 16;
@@ -133,7 +137,7 @@ namespace ProjetoComeBem.Ui
             // lbl_nome
             // 
             this.lbl_nome.AutoSize = true;
-            this.lbl_nome.Location = new System.Drawing.Point(113, 29);
+            this.lbl_nome.Location = new System.Drawing.Point(95, 17);
             this.lbl_nome.Name = "lbl_nome";
             this.lbl_nome.Size = new System.Drawing.Size(43, 15);
             this.lbl_nome.TabIndex = 15;
@@ -141,7 +145,7 @@ namespace ProjetoComeBem.Ui
             // 
             // txt_id
             // 
-            this.txt_id.Location = new System.Drawing.Point(38, 61);
+            this.txt_id.Location = new System.Drawing.Point(20, 49);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(49, 23);
             this.txt_id.TabIndex = 14;
@@ -149,7 +153,7 @@ namespace ProjetoComeBem.Ui
             // lbl_id
             // 
             this.lbl_id.AutoSize = true;
-            this.lbl_id.Location = new System.Drawing.Point(38, 29);
+            this.lbl_id.Location = new System.Drawing.Point(20, 17);
             this.lbl_id.Name = "lbl_id";
             this.lbl_id.Size = new System.Drawing.Size(20, 15);
             this.lbl_id.TabIndex = 13;
@@ -159,7 +163,7 @@ namespace ProjetoComeBem.Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 450);
+            this.ClientSize = new System.Drawing.Size(610, 425);
             this.Controls.Add(this.dgv_comidas);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.btn_excluir);
@@ -175,6 +179,7 @@ namespace ProjetoComeBem.Ui
             this.Controls.Add(this.lbl_id);
             this.Name = "frm_comidas";
             this.Text = "Comidas";
+            this.Load += new System.EventHandler(this.frm_comidas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_comidas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
