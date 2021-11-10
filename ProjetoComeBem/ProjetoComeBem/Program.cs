@@ -17,7 +17,7 @@ namespace ProjetoComeBem
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ui.frm_comidas());
+            Application.Run(new Ui.frm_login());
         }
     }
 }

@@ -25,6 +25,13 @@ namespace ProjetoComeBem.Ui
         {
             InitializeComponent();
             txt_id.Enabled = false;
+
+            /*dataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.Fill);
+MICHELLE APARECIDA BELLI FERNANDES11:29
+dataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.Fill);
+MICHELLE APARECIDA BELLI FERNANDES11:31
+grid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+grid.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None;*/
         }
 
         private void btn_inserir_Click(object sender, EventArgs e)

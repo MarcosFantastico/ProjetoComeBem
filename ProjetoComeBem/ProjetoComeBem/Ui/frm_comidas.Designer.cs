@@ -57,7 +57,7 @@ namespace ProjetoComeBem.Ui
             // 
             // btn_listar
             // 
-            this.btn_listar.Location = new System.Drawing.Point(425, 363);
+            this.btn_listar.Location = new System.Drawing.Point(422, 363);
             this.btn_listar.Name = "btn_listar";
             this.btn_listar.Size = new System.Drawing.Size(105, 40);
             this.btn_listar.TabIndex = 24;
@@ -67,7 +67,7 @@ namespace ProjetoComeBem.Ui
             // 
             // btn_excluir
             // 
-            this.btn_excluir.Location = new System.Drawing.Point(308, 363);
+            this.btn_excluir.Location = new System.Drawing.Point(305, 363);
             this.btn_excluir.Name = "btn_excluir";
             this.btn_excluir.Size = new System.Drawing.Size(105, 40);
             this.btn_excluir.TabIndex = 23;
@@ -77,7 +77,7 @@ namespace ProjetoComeBem.Ui
             // 
             // btn_alterar
             // 
-            this.btn_alterar.Location = new System.Drawing.Point(187, 363);
+            this.btn_alterar.Location = new System.Drawing.Point(191, 363);
             this.btn_alterar.Name = "btn_alterar";
             this.btn_alterar.Size = new System.Drawing.Size(105, 40);
             this.btn_alterar.TabIndex = 22;
@@ -87,7 +87,7 @@ namespace ProjetoComeBem.Ui
             // 
             // btn_inserir
             // 
-            this.btn_inserir.Location = new System.Drawing.Point(74, 363);
+            this.btn_inserir.Location = new System.Drawing.Point(78, 363);
             this.btn_inserir.Name = "btn_inserir";
             this.btn_inserir.Size = new System.Drawing.Size(105, 40);
             this.btn_inserir.TabIndex = 21;

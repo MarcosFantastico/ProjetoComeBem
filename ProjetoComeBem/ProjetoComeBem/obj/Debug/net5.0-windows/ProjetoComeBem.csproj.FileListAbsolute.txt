@@ -38,3 +38,5 @@ C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_
 C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_Come_Bem\ProjetoComeBem\ProjetoComeBem\obj\Debug\net5.0-windows\ref\ProjetoComeBem.dll
 C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_Come_Bem\ProjetoComeBem\ProjetoComeBem\obj\Debug\net5.0-windows\ProjetoComeBem.pdb
 C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_Come_Bem\ProjetoComeBem\ProjetoComeBem\obj\Debug\net5.0-windows\ProjetoComeBem.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_Come_Bem\ProjetoComeBem\ProjetoComeBem\obj\Debug\net5.0-windows\ProjetoComeBem.Properties.Resources.resources
+C:\Users\marco\OneDrive\Documentos\importantes\Cotemig\3_ano\Poo\3_trim\Projeto_Come_Bem\ProjetoComeBem\ProjetoComeBem\obj\Debug\net5.0-windows\ProjetoComeBem.Ui.frm_login.resources
