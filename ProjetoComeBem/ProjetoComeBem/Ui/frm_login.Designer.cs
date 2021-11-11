@@ -43,7 +43,7 @@ namespace ProjetoComeBem.Ui
             // lbl_email
             // 
             this.lbl_email.AutoSize = true;
-            this.lbl_email.Location = new System.Drawing.Point(283, 12);
+            this.lbl_email.Location = new System.Drawing.Point(271, 12);
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(39, 15);
             this.lbl_email.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace ProjetoComeBem.Ui
             // lbl_senha
             // 
             this.lbl_senha.AutoSize = true;
-            this.lbl_senha.Location = new System.Drawing.Point(283, 92);
+            this.lbl_senha.Location = new System.Drawing.Point(271, 92);
             this.lbl_senha.Name = "lbl_senha";
             this.lbl_senha.Size = new System.Drawing.Size(42, 15);
             this.lbl_senha.TabIndex = 1;
@@ -60,23 +60,23 @@ namespace ProjetoComeBem.Ui
             // 
             // txt_email
             // 
-            this.txt_email.Location = new System.Drawing.Point(283, 48);
+            this.txt_email.Location = new System.Drawing.Point(271, 48);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(100, 23);
+            this.txt_email.Size = new System.Drawing.Size(123, 23);
             this.txt_email.TabIndex = 2;
             // 
             // txt_senha
             // 
-            this.txt_senha.Location = new System.Drawing.Point(283, 128);
+            this.txt_senha.Location = new System.Drawing.Point(271, 128);
             this.txt_senha.Name = "txt_senha";
             this.txt_senha.PasswordChar = '*';
-            this.txt_senha.Size = new System.Drawing.Size(100, 23);
+            this.txt_senha.Size = new System.Drawing.Size(123, 23);
             this.txt_senha.TabIndex = 3;
             // 
             // lnklbl_esqueceu
             // 
             this.lnklbl_esqueceu.AutoSize = true;
-            this.lnklbl_esqueceu.Location = new System.Drawing.Point(281, 208);
+            this.lnklbl_esqueceu.Location = new System.Drawing.Point(280, 208);
             this.lnklbl_esqueceu.Name = "lnklbl_esqueceu";
             this.lnklbl_esqueceu.Size = new System.Drawing.Size(105, 15);
             this.lnklbl_esqueceu.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace ProjetoComeBem.Ui
             // 
             // btn_entrar
             // 
-            this.btn_entrar.Location = new System.Drawing.Point(296, 169);
+            this.btn_entrar.Location = new System.Drawing.Point(295, 169);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(75, 23);
             this.btn_entrar.TabIndex = 5;
